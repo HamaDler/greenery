@@ -86,10 +86,12 @@
                 color: $color-primary;
                 display: inline-block;
                 text-decoration: none;
-                border-bottom: 1px solid $color-primary;
+                border: 2px solid $color-primary;
+                border-radius: 5px;
                 padding: 1rem;
                 transition: all 0.3s;
                 backface-visibility: hidden;
+                text-transform: uppercase;
         }
 
         &:hover {
